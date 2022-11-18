@@ -1,7 +1,25 @@
+/******************************************************/
+/*  Main Part
+/******************************************************/
+
 header{
     display: flex;
     justify-content: space-around;
     background-color: #BB6BBB;
+    flex-direction: row;
+}
+
+ol{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+button{
+    background-color: #E493DA;
+    padding: 0 15px;
+    border: none;
 }
 
 .main-part{
@@ -11,11 +29,15 @@ header{
     align-items: center;
     text-align: center;
     background-color: #BB6BBB;
-    padding-bottom: 50px;
+    padding-bottom: 90px;
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
 }
+
+/******************************************************/
+/*  Medium Part
+/******************************************************/
 
 .medium-part{
     display: flex;
@@ -26,6 +48,10 @@ header{
     background-color: #E493DA;
     padding: 100px 100px;
 }
+
+/******************************************************/
+/*  Third Part
+/******************************************************/
 
 .third-part{
     display: flex;
@@ -38,6 +64,17 @@ header{
     gap: 50px;
 }
 
+.get-information{
+    border: solid 2px black;
+    color: #302D94;
+    padding: 10px;
+}
+
+/******************************************************/
+/*  Last Part
+/******************************************************/
+
+
 .last-part{
     display: flex;
     justify-content: center;
@@ -48,12 +85,44 @@ header{
     padding: 90px 90px;
 }
 
-a{
-    border: solid 2px black;
-    
+/******************************************************/
+/*  Footer
+/******************************************************/
+
+.address{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #BB6BBB;
+    padding: 30px;
 }
+
+.web-information{
+    display: flex;
+    background-color: #BB6BBB;
+    flex-direction: column;
+    width: 1000px;
+}
+
+.final-part{
+    display: flex;
+    background-color: #BB6BBB;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 500px;
+}
+
+.legacy-things{
+    background-color: #BB6BBB;
+    border-top: 2px solid black;
+    padding: 5px;
+}
+
+/******************************************************/
+/*  General Style
+/******************************************************/
 
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
-
