@@ -48,6 +48,11 @@ header{
     padding: 90px 90px;
 }
 
+a{
+    border: solid 2px black;
+    
+}
+
 body{
     font-family: 'Roboto', sans-serif;
 }
