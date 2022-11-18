@@ -1,7 +1,7 @@
 header{
     display: flex;
     justify-content: space-around;
-    background-color: #F5BFD3;
+    background-color: #BB6BBB;
 }
 
 .main-part{
@@ -10,7 +10,11 @@ header{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: #F5BFD3;
+    background-color: #BB6BBB;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .medium-part{
@@ -20,6 +24,7 @@ header{
     align-items: center;
     text-align: center;
     background-color: #E493DA;
+    padding: 100px 100px;
 }
 
 .third-part{
@@ -29,6 +34,8 @@ header{
     align-items: center;
     text-align: center;
     background-color: #BB6BBB;
+    padding: 100px 100px;
+    gap: 50px;
 }
 
 .last-part{
@@ -38,5 +45,6 @@ header{
     align-items: center;
     text-align: center;
     background-color: #E493DA;
+    padding: 90px 90px;
 }
 
