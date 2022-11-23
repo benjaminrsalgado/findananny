@@ -5,7 +5,7 @@
 header{
     display: flex;
     justify-content: space-around;
-    background-color: #BB6BBB;
+    background-color: #6562C5;
     flex-direction: row;
 }
 
@@ -17,7 +17,7 @@ ol{
 }
 
 button{
-    background-color: #E493DA;
+    background-color: #6562C5;
     padding: 0 15px;
     border: none;
 }
@@ -28,7 +28,7 @@ button{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: #BB6BBB;
+    background-color: #6562C5;
     padding-bottom: 90px;
     padding-top: 50px;
     padding-left: 50px;
@@ -45,7 +45,7 @@ button{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: #E493DA;
+    background-color: #F3F1FF;
     padding: 100px 100px;
 }
 
@@ -59,14 +59,14 @@ button{
     flex-direction: row;
     align-items: center;
     text-align: center;
-    background-color: #BB6BBB;
+    background-color: #FFFFFF;
     padding: 100px 100px;
     gap: 50px;
 }
 
 .get-information{
     border: solid 2px black;
-    color: #302D94;
+    color: white;
     padding: 10px;
 }
 
@@ -81,7 +81,7 @@ button{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: #E493DA;
+    background-color: violet;
     padding: 90px 90px;
 }
 
@@ -93,7 +93,7 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #BB6BBB;
+    background-color: #242C56;
     padding: 30px;
 }
 
@@ -125,4 +125,14 @@ button{
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0px;
+}
+
+.icons{
+    width: 30px;
+    height: 30px;
+}
+
+.icon-play{
+    width: 20px;
+    height: 20px;
 }
