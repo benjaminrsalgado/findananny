@@ -5,7 +5,7 @@
 header{
     display: flex;
     justify-content: space-around;
-    background-color: #6562C5;
+    background-color: #FFE8E8;
     flex-direction: row;
 }
 
@@ -17,7 +17,7 @@ ol{
 }
 
 button{
-    background-color: #6562C5;
+    background-color: #FFE8E8;
     padding: 0 15px;
     border: none;
 }
@@ -28,7 +28,7 @@ button{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: #6562C5;
+    background-color: #FFE8E8;
     padding-bottom: 90px;
     padding-top: 50px;
     padding-left: 50px;
@@ -45,7 +45,7 @@ button{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: #F3F1FF;
+    background-color: #1A3451;
     padding: 100px 100px;
 }
 
@@ -59,7 +59,7 @@ button{
     flex-direction: row;
     align-items: center;
     text-align: center;
-    background-color: #FFFFFF;
+    background-color: #F6CBD1;
     padding: 100px 100px;
     gap: 50px;
 }
