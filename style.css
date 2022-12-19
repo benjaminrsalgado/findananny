@@ -5,7 +5,7 @@
 header{
     display: flex;
     justify-content: space-around;
-    background-color: #FFE8E8;
+    background-color: #F6CBD1;
     flex-direction: row;
 }
 
@@ -17,7 +17,7 @@ ol{
 }
 
 button{
-    background-color: #FFE8E8;
+    background-color: #F6CBD1;
     padding: 0 15px;
     border: none;
 }
@@ -28,7 +28,7 @@ button{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: #FFE8E8;
+    background-color: #F6CBD1;
     padding-bottom: 90px;
     padding-top: 50px;
     padding-left: 50px;
@@ -45,7 +45,7 @@ button{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: #1A3451;
+    background-color: #FFFFFF;
     padding: 100px 100px;
 }
 
@@ -81,8 +81,12 @@ button{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: violet;
+    background-color: #FFFFFF;
     padding: 90px 90px;
+}
+
+.information-button{
+    color: black;
 }
 
 /******************************************************/
@@ -93,27 +97,27 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #242C56;
+    background-color: #F6CBD1;
     padding: 30px;
 }
 
 .web-information{
     display: flex;
-    background-color: #BB6BBB;
+    background-color: #F6CBD1;
     flex-direction: column;
     width: 1000px;
 }
 
 .final-part{
     display: flex;
-    background-color: #BB6BBB;
+    background-color: #F6CBD1;
     flex-direction: column;
     justify-content: flex-end;
     width: 500px;
 }
 
 .legacy-things{
-    background-color: #BB6BBB;
+    background-color: #F6CBD1;
     border-top: 2px solid black;
     padding: 5px;
 }
